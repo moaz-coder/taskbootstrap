@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.task {
+   background-color: 	#00B7EB;
+    height: 100vh;
+}
+
+.task .nav{
+    display: flex;
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    
+}
+.task .nav .itemleft {
+    width: 50%;
+}
+.task .nav .rightitem{
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 10px
+}
+.task .nav .itemleft h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.task .nav .rightitem ul{
+    float: right;
+}
+.task .nav .rightitem ul li{
+    display: inline;
+    font-weight:500 ;
+    font-family: cursive;
+    list-style: unset;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    margin: 5px 5px;
+    border-radius: 20px;
+    border:1px solid transparent;
+}
+.task .nav .rightitem ul li a{
+    color: #fff;
+    text-decoration: unset;
+}
+.task .nav .rightitem {
+    position: relative;
+    left: -450px;
+}
+.task .nav .rightitem .btn{
+    position: relative;
+    left: 764px;
+}
+.task .banner_inner{
+    position: relative;
+    top: 200px;
+}
+.task .banner_inner .container .row .col-lg-5 .banner_content{
+    position: relative;
+    top:50px
+}
+.task .banner_inner .container .row .col-lg-5 .banner_content p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 220, 220);
+    text-transform: capitalize;
+   
+}
+
+.task .banner_inner .container .row .col-lg-5 .banner_content h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    color: rgb(246, 240, 240);
+    text-transform: capitalize;
+}
+
+.task .banner_inner .container .row .col-lg-7 .home_left_img img{
+    position: relative;
+   top: -10px;
+    left: 70px;
+}
+/* <///////////////////////////////////////////////////////////////////////////////////> */
+
+.section .container .main_title{
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+.section .container .main_title h2{
+    position: relative;
+   
+    left: 90px;
+}
+ .work_item{
+    position: relative;
+    top: 200px;
+ 
+}
+.work_item h4{
+    position: relative;
+   left: 50px;
+}
+/* <.........................................................> */
+.bb{
+    background-color: rgb(235, 228, 228);
+    position: relative;
+  top: 300px;
+  left: 0px;
+  padding: 100px;
+}
+.bb .btn{
+    position: relative;
+    left: 120px;
+}
+
+img.img-fluid {
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+.bb .banner_inner .container .row .col-lg-5 .banner_content {
+    position: relative;
+    top: 50px;
+}
+.bb .banner_inner .container .row .col-lg-5 .banner_content .btn {
+    position: relative;
+  
+    left: -15px;
+}
+/* <..........................................................................> */
+
+
+.dd .container .main_title{
+    position: relative;
+    top: 400px;
+    left: 200px;
+}
+.dd .container .main_title h2{
+    position: relative;
+    top: 4px;
+    left: 89px;
+    font-size: 35px;
+}
+.dd .container .main_title p{
+    position: relative;
+    top: 4px;
+    left: 125px;
+}
+.dd .container .img-fluid{
+    position: relative;
+    top: 460px;
+    left: 180px;
+}
+/* <.....................................................> */
+ .cc{
+    position: relative;
+    top: 700px;
+    background-color: rgb(229, 236, 234);
+   padding: 100px;
+ }       
+
+ .cc .col-lg-6 {
+position: relative;
+top: 80px;
+ }
+  .cc img.img-fluid {
+    position: relative;
+    left: 40px;
+    top: -60px
+  }
+  /* </////////////////////////////////////////////////////////////////////> */
+
+.kk{
+    position: relative;
+   
+    top: 900px;
+}
+.kk img.img-fluid {
+    position: relative;
+    left: -40px;
+    top: -59px;
+}
+/* <pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp> */
+
+.ll{
+    background-color:	#00B7EB ;
+    position: relative;
+    top: 1000px;
+    padding: 150px;
+}
+.ll .container .impress_inner h2{
+    position: relative;
+    top: 1px;
+    text-align: center;
+    color: rgb(246, 240, 240);
+}
+.ll .container .impress_inner p{
+    position: relative;
+    top: 1px;
+    text-align: center;
+    color: rgb(246, 240, 240);
+}
+
+.ll .btn-light {
+    position: relative;
+    top: 20px;
+    left: 410px;
+}
+/* <ppppppppppppppppppppppppppppppppppppppp> */
+.oo{
+    background-color: black;
+    position: relative;
+    top: 1100px;
+    padding: 100px;
+    margin: -100px;
+}
+/* .oo .col-sm-6 {
+    position: relative;
+   
+    left: 100px;
+} */
+.oo h3{
+    position: relative;
+    left: -55px;
+    color: rgb(246, 240, 240);
+    top: -10px;
+
+ 
+}
+.oo p{
+    position: relative;
+    left: -55px;
+    color: rgb(246, 240, 240);
+    top: 5px;
+
+
+}
+
+
